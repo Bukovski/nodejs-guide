@@ -23,9 +23,5 @@ Runs the app in the development mode. Open http://localhost:3000 to view it in t
 * [nodemon](https://nodemon.io/) - monitor for any changes in your source and automatically restart your server
 * [sequelize](https://github.com/sequelize/sequelize) - is a promise-based Node.js ORM for MySQL
 
-![main-page](./templates/1.main-page.jpg)
-![products-page](./templates/2.products-page.jpg)
-![products-detail-page](./templates/3.products-detail-page.jpg)
-![cart-page](./templates/4.cart-page.jpg)
-![admin-page](./templates/5.admin-page.jpg)
-![admin-edit-page](./templates/6.admin-edit-page.jpg)
+![table-relation](./templates/table-relation.png)
+
