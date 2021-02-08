@@ -21,6 +21,7 @@ Runs the app in the development mode. Open http://localhost:3000 to view it in t
 * [ejs](https://github.com/mde/ejs) - html template engine
 * [express](https://expressjs.com/ru/) - minimal and flexible Node.js web application framework
 * [nodemon](https://nodemon.io/) - monitor for any changes in your source and automatically restart your server
+* [sequelize](https://github.com/sequelize/sequelize) - is a promise-based Node.js ORM for MySQL
 
 ![main-page](./templates/1.main-page.jpg)
 ![products-page](./templates/2.products-page.jpg)

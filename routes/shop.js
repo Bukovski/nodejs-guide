@@ -16,7 +16,6 @@ router.get('/cart', shopController.getCart);
 
 router.post('/cart', shopController.postCart);
 
-// удаление товара из корзины
 router.post('/cart-delete-item', shopController.postCartDeleteProduct);
 
 router.get('/orders', shopController.getOrders);
