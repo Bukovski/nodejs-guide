@@ -7,7 +7,7 @@ The project use mySQL databases.
 ## Install
 * Install all packages  `npm i`
 * Create table `shop` in mongodb before starting
-* Save connect settings in `util/database.js`
+* Save connect settings in `app.js`
 
 
 ## Available Scripts
@@ -23,7 +23,10 @@ Runs the app in the development mode. Open http://localhost:3000 to view it in t
 * [ejs](https://github.com/mde/ejs) - html template engine
 * [express](https://expressjs.com/ru/) - minimal and flexible Node.js web application framework
 * [nodemon](https://nodemon.io/) - monitor for any changes in your source and automatically restart your server
-* [mongodb](https://docs.mongodb.com/manual/crud/) - is a document database stores data in JSON-like documents
+* [mongoose](https://mongoosejs.com/) -  is a MongoDB object modeling tool designed to work in an asynchronous environment. Mongoose supports both promises and callbacks.
 
-![admin-products](./templates/1.admin-products.png)
+![main-page](./templates/1.main-page.png)
+![cart-page](./templates/2.cart-page.png)
+![add-product-page](./templates/3.add-product-page.png)
+![admin-products-page](./templates/4.admin-products-page.png)
 
