@@ -2,10 +2,11 @@
 
 A simple project to practice working with nodejs.
 
-The project does not use databases. Uses data storage in local files `data/products.json` and  `data/cart.json`
+The project use mySQL databases.
 
 ## Install
 * Install all packages  `npm i`
+* Create table `node-complete` in mySQL before starting
 
 
 ## Available Scripts
