@@ -9,6 +9,8 @@ We store all user `data in sessions`.
 `Encrypts the password` before saving to the database. Uses `tokens` to protect data submission `forms`.`Displays error messages` to the user on the page.
 It is possible to `change the password` for a registered user.The login form has a `button` to `change the password`. A `link` to `change the password` will be `sent to the email` by which the user is registered.
 All input forms are `validated`
+`Uploading files` for products on the site and saving to `images` folder, as well as deleting them with the product. Create an Invoice `PDF file` from the shopping cart and saving to `data/invoices` folder.
+
 
 
 ## Install
@@ -37,11 +39,18 @@ Runs the app in the development mode. Open http://localhost:3000 to view it in t
 * [express-validator](https://express-validator.github.io/docs/) - is a set of express.js middlewares that wraps [validator.js](https://github.com/validatorjs/validator.js) validator and sanitizer functions.
 * [nodemon](https://nodemon.io/) - monitor for any changes in your source and automatically restart your server
 * [mongoose](https://mongoosejs.com/) -  is a MongoDB object modeling tool designed to work in an asynchronous environment. Mongoose supports both promises and callbacks.
+* [multer](https://github.com/expressjs/multer) - middleware for handling `multipart/form-data`, which is primarily used for uploading files
 * [nodemailer](https://nodemailer.com/about/) - is a module for Node.js applications to allow easy as cake email sending.
 * [nodemailer-sendgrid-transport](https://github.com/sendgrid/nodemailer-sendgrid-transport) - is a transport plugin for Nodemailer that makes it possible to send through SendGrid's Web API!
+* [pdfkit](https://github.com/foliojs/pdfkit) -  is a PDF document generation library, makes creating complex, multi-page, printable documents easy.
 
 
 
+![create-product-form](./templates/create-product-form.jpg)
+![shop-page](./templates/shop-page.jpg)
+![cart-page](./templates/cart-page.jpg)
+![orders-page](./templates/orders-page.jpg)
+![invoice-pdf](./templates/invoice-pdf.jpg)
 ![signup-page](./templates/1.signpup-page.jpg)
 ![show-messages](./templates/2.show-messages.jpg)
 ![form-token](./templates/3.form-token.jpg)
