@@ -2,13 +2,13 @@
 
 A simple project to practice working with nodejs.
 
-The project use mongodb databases.
-Saves user data in server-side session to mongodb database.
-Hides menu items for unauthorized users. 
-We store all user data in sessions.
-Encrypts the password before saving to the database. Uses tokens to protect data submission forms.Displays error messages to the user on the page.
+The project use `mongodb` databases.
+Saves user data in server-side `session` to mongodb database.
+`Hides menu` items for `unauthorized users`. 
+We store all user `data in sessions`.
+`Encrypts the password` before saving to the database. Uses `tokens` to protect data submission `forms`.`Displays error messages` to the user on the page.
 It is possible to `change the password` for a registered user.The login form has a `button` to `change the password`. A `link` to `change the password` will be `sent to the email` by which the user is registered.
-
+All input forms are `validated`
 
 
 ## Install
@@ -34,6 +34,7 @@ Runs the app in the development mode. Open http://localhost:3000 to view it in t
 * [ejs](https://github.com/mde/ejs) - html template engine
 * [express](https://expressjs.com/ru/) - minimal and flexible Node.js web application framework
 * [express-session](https://github.com/expressjs/session) - The data is stored on the server, and the client-side session ID is in a cookie. Moreover, `express-session` uses the `cookie-parser` by default to parse `cookies`.
+* [express-validator](https://express-validator.github.io/docs/) - is a set of express.js middlewares that wraps [validator.js](https://github.com/validatorjs/validator.js) validator and sanitizer functions.
 * [nodemon](https://nodemon.io/) - monitor for any changes in your source and automatically restart your server
 * [mongoose](https://mongoosejs.com/) -  is a MongoDB object modeling tool designed to work in an asynchronous environment. Mongoose supports both promises and callbacks.
 * [nodemailer](https://nodemailer.com/about/) - is a module for Node.js applications to allow easy as cake email sending.
