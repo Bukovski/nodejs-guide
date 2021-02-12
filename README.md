@@ -6,9 +6,8 @@ The project use mongodb databases.
 Saves user data in server-side session to mongodb database.
 Hides menu items for unauthorized users. 
 We store all user data in sessions.
-Encrypts the password before saving to the database.
-Uses tokens to protect data submission forms.
-Displays error messages to the user on the page.
+Encrypts the password before saving to the database. Uses tokens to protect data submission forms.Displays error messages to the user on the page.
+It is possible to `change the password` for a registered user.The login form has a `button` to `change the password`. A `link` to `change the password` will be `sent to the email` by which the user is registered.
 
 
 
@@ -37,8 +36,15 @@ Runs the app in the development mode. Open http://localhost:3000 to view it in t
 * [express-session](https://github.com/expressjs/session) - The data is stored on the server, and the client-side session ID is in a cookie. Moreover, `express-session` uses the `cookie-parser` by default to parse `cookies`.
 * [nodemon](https://nodemon.io/) - monitor for any changes in your source and automatically restart your server
 * [mongoose](https://mongoosejs.com/) -  is a MongoDB object modeling tool designed to work in an asynchronous environment. Mongoose supports both promises and callbacks.
+* [nodemailer](https://nodemailer.com/about/) - is a module for Node.js applications to allow easy as cake email sending.
+* [nodemailer-sendgrid-transport](https://github.com/sendgrid/nodemailer-sendgrid-transport) - is a transport plugin for Nodemailer that makes it possible to send through SendGrid's Web API!
+
+
 
 ![signup-page](./templates/1.signpup-page.jpg)
 ![show-messages](./templates/2.show-messages.jpg)
 ![form-token](./templates/3.form-token.jpg)
+![reset-password-button](./templates/4.reset-password-button.jpg)
+![reset-password-page](./templates/5.reset-password-page.jpg)
+![new-password](./templates/6.new-password.jpg)
 
