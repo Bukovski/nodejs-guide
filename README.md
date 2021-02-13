@@ -51,6 +51,7 @@ Runs the app in the development mode. Open http://localhost:3000 to view it in t
 ![pagination-first-page](./templates/pagination-first-page.jpg)
 ![pagination-middle-page](./templates/pagination-middle-page.jpg)
 ![pagination-last-page](./templates/pagination-last-page.jpg)
+![admin-products-page](./templates/admin-products.jpg)
 ![cart-page](./templates/cart-page.jpg)
 ![orders-page](./templates/orders-page.jpg)
 ![invoice-pdf](./templates/invoice-pdf.jpg)
