@@ -10,7 +10,7 @@ We store all user `data in sessions`.
 It is possible to `change the password` for a registered user.The login form has a `button` to `change the password`. A `link` to `change the password` will be `sent to the email` by which the user is registered.
 All input forms are `validated`
 `Uploading files` for products on the site and saving to `images` folder, as well as deleting them with the product. Create an Invoice `PDF file` from the shopping cart and saving to `data/invoices` folder.
-
+`Pagination` for `products`. Shows no more than two products on one page, scatters the rest on pages
 
 
 ## Install
@@ -47,7 +47,10 @@ Runs the app in the development mode. Open http://localhost:3000 to view it in t
 
 
 ![create-product-form](./templates/create-product-form.jpg)
-![shop-page](./templates/shop-page.jpg)
+![mobile-menu](./templates/mobile-menu.jpg)
+![pagination-first-page](./templates/pagination-first-page.jpg)
+![pagination-middle-page](./templates/pagination-middle-page.jpg)
+![pagination-last-page](./templates/pagination-last-page.jpg)
 ![cart-page](./templates/cart-page.jpg)
 ![orders-page](./templates/orders-page.jpg)
 ![invoice-pdf](./templates/invoice-pdf.jpg)
