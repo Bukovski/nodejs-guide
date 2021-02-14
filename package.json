@@ -5,7 +5,12 @@
   "keywords": [
     "express example",
     "ejs express",
-    "nodejs express"
+    "nodejs express",
+    "express auth",
+    "nodejs bcrypt",
+    "express session",
+    "express validation",
+    "express load file"
   ],
   "main": "app.js",
   "scripts": {
