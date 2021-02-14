@@ -21,7 +21,8 @@ All input forms are `validated`
 * Save connect settings in `app.js`
 
 
-## Available Scripts
+## Availa
+ble Scripts
 In the project directory, you can run:
 * `npm run start` start project in development mode
 * `npm run start-server` start project in production mode
@@ -49,16 +50,19 @@ Runs the app in the development mode. Open http://localhost:3000 to view it in t
 
 
 
+### Create Pdoduct form
 ![create-product-form](./templates/create-product-form.jpg)
+
+### Mobile menu
 ![mobile-menu](./templates/mobile-menu.jpg)
 
-## Pagination
+### Pagination
 ![pagination-first-page](./templates/pagination-first-page.jpg)
 ![pagination-middle-page](./templates/pagination-middle-page.jpg)
 ![pagination-last-page](./templates/pagination-last-page.jpg)
 ![admin-products-page](./templates/admin-products.jpg)
 
-## Working with user data. Authorization, registration and password change
+### Working with user data. Authorization, registration and password change
 ![signup-page](./templates/1.signpup-page.jpg)
 ![show-messages](./templates/2.show-messages.jpg)
 ![form-token](./templates/3.form-token.jpg)
@@ -66,12 +70,12 @@ Runs the app in the development mode. Open http://localhost:3000 to view it in t
 ![reset-password-page](./templates/5.reset-password-page.jpg)
 ![new-password](./templates/6.new-password.jpg)
 
-## Placing an order through a payment system
+### Placing an order through a payment system
 ![cart-page](./templates/cart-page.jpg)
 ![count-cart-order](./templates/count-cart-order.jpg)
 ![payment-page](./templates/payment-page.jpg)
 ![order-success](./templates/order-success.jpg)
 
-## Get order details in PDF
+### Get order details in PDF
 ![orders-page](./templates/orders-page.jpg)
 ![invoice-pdf](./templates/invoice-pdf.jpg)
