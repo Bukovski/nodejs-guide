@@ -16,6 +16,8 @@ All input forms are `validated`
 All http requests will be saved to the `access.log` file.
 All settings are saved to file `nodemon.json`
 
+You can find a live example of a site on [heroku-exapmple](https://node-guide-dev.herokuapp.com/) if it still works of course.
+
 
 
 ## Install

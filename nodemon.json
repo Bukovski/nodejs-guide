@@ -1,6 +1,7 @@
 {
     "env": {
         "MONGO_URI": "mongodb+srv://alessa:Aless@112233@cluster0.xacr9.mongodb.net/shop?retryWrites=true&w=majority",
-        "STRIPE_KEY": "sk_test_56rqZ8x5w2qJjn6uXxJRF3EJ"
+        "STRIPE_KEY": "sk_test_56rqZ8x5w2qJjn6uXxJRF3EJ",
+        "SENDGRID_API_KEY": "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"
     }
 }
