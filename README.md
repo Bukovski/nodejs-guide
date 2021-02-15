@@ -1,6 +1,7 @@
-# nodejs-guide
 
-A simple project to practice working with nodejs.
+# NodeJs guide
+
+This is project to practice working with nodejs.
 
 The project use `mongodb` databases.
 Saves user data in server-side `session` to mongodb database.
@@ -12,27 +13,29 @@ All input forms are `validated`
 `Uploading files` for products on the site and saving to `images` folder, as well as deleting them with the product. Create an Invoice `PDF file` from the shopping cart and saving to `data/invoices` folder.
 `Pagination` for `products`. Shows no more than two products on one page, scatters the rest on pages
 `Pay from cart` goes through the [Stripe](https://stripe.com/) payment system.
+All http requests will be saved to the `access.log` file.
+All settings are saved to file `nodemon.json`
 
 
 
 ## Install
 * Install all packages  `npm i`
 * Create table `shop` in mongodb before starting
-* Save connect settings in `app.js`
+* Save connect settings in `nodemon.json`
 
 
-## Availa
-ble Scripts
+## Available Scripts
 In the project directory, you can run:
 * `npm run start` start project in development mode
 * `npm run start-server` start project in production mode
 
-Runs the app in the development mode. Open http://localhost:3000 to view it in the browser.
+Runs the app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 
 ## Built With
 * [bcryptjs](https://github.com/dcodeIO/bcrypt.js) - is a secured way to store passwords in my database regardless of whatever language my app’s backend
 * [body-parser](https://github.com/expressjs/body-parser) - Parse incoming request bodies in a middleware before your handlers, available under the req.body property.
+* [compression](https://github.com/expressjs/compression) - is a middleware will attempt to compress response bodies for all request that traverse through the middleware.
 * [connect-flash](https://github.com/jaredhanson/connect-flash) - is a special area of the session used for storing messages.
 * [connect-mongodb-session](https://github.com/mongodb-js/connect-mongodb-session) - MongoDB-backed session storage for connect and Express. Used to store sessions in MongoDB.
 * [csurf](https://github.com/expressjs/csurf) - is a middleware for CSRF token creation and validation.
@@ -40,9 +43,11 @@ Runs the app in the development mode. Open http://localhost:3000 to view it in t
 * [express](https://expressjs.com/ru/) - minimal and flexible Node.js web application framework
 * [express-session](https://github.com/expressjs/session) - The data is stored on the server, and the client-side session ID is in a cookie. Moreover, `express-session` uses the `cookie-parser` by default to parse `cookies`.
 * [express-validator](https://express-validator.github.io/docs/) - is a set of express.js middlewares that wraps [validator.js](https://github.com/validatorjs/validator.js) validator and sanitizer functions.
+* [helmet](https://helmetjs.github.io/) - secure Express apps by setting various HTTP headers
 * [nodemon](https://nodemon.io/) - monitor for any changes in your source and automatically restart your server
 * [mongoose](https://mongoosejs.com/) -  is a MongoDB object modeling tool designed to work in an asynchronous environment. Mongoose supports both promises and callbacks.
-* [multer](https://github.com/expressjs/multer) - middleware for handling `multipart/form-data`, which is primarily used for uploading files
+* [morgan](https://github.com/expressjs/morgan) - middleware for handling `multipart/form-data`, which is primarily used for uploading files
+* [multer](https://github.com/expressjs/multer) - HTTP request logger middleware
 * [nodemailer](https://nodemailer.com/about/) - is a module for Node.js applications to allow easy as cake email sending.
 * [nodemailer-sendgrid-transport](https://github.com/sendgrid/nodemailer-sendgrid-transport) - is a transport plugin for Nodemailer that makes it possible to send through SendGrid's Web API!
 * [pdfkit](https://github.com/foliojs/pdfkit) -  is a PDF document generation library, makes creating complex, multi-page, printable documents easy.
