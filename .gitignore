@@ -4,3 +4,4 @@ data/invoices/*
 access.log
 server.key
 server.cert
+nodemon.json
